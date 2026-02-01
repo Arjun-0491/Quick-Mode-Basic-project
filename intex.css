@@ -214,5 +214,13 @@ header{
     font-weight:bold;
     color:#333;
 }
+.food-action{
+    display: flex;
+    align-items: center;
+    
+    margin-left:10px;
+}
 
-
+.add{
+   margin-left:15px;
+}
