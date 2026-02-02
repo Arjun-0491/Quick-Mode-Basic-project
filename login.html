@@ -8,7 +8,7 @@
 <body>
     <header>
         
-    <div class="navbar">
+    <nav class="navbar">
         <h2 class="logo">Kubaba</h2>
         <ul>
             <li><a href="#">Home</a></li>
@@ -16,7 +16,7 @@
             <li><a href="#">Contact Us</a></li>
             <li><a href="#">Services</a></li>
         </ul>
-    </div>
+    </nav>
 
     <div class="hero">
         <div class="hero-text">
@@ -51,15 +51,23 @@
     <div class="food-card">
         <img src="image/chikkan fry.jpg" alt="Spicy Chicken">
         <h3>Spicy Chicken</h3>
-        <p>Hot & crispy spicy chicken</p>
-        <span>₹250</span>
+        <p class="item-name">Hot & crispy spicy chicken</p>
+    <div class="food-action"> <button onclick="increment()">+</button> <p class="count-numeber">0</p><button onclick="decrement()">-</button><span class="amount-food">250</span>
+        <select name="qutity" class="qutity">
+            <option name="qutity"value="1kg">1kg</option>
+            <option value="2kg">2kg</option>
+            
+        </select>
+    <button onclick="amountaddbar()" class="add">add</button>
+</div> 
+
     </div>
 
     <div class="food-card">
         <img src="image/chikkan dry.jpg" alt="Chilli Paneer">
         <h3>Chilli Paneer</h3>
         <p>Paneer with spicy sauce</p>
-        <span>₹200</span>
+        <span>₹200</span> 
     </div>
 
     <div class="food-card">
@@ -127,6 +135,7 @@
 
 </section>
 
+
 <header>
     <div> <img src="" alt="image/download.jpg"></div>
     <h1>🥤 Cool Drinks Menu</h1>
@@ -169,8 +178,12 @@
 </html>
 
 
-</body>
-</html>
+
+
+
+<script src="login.js"></script>
+
+
 
 
 </body>
