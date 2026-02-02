@@ -10,26 +10,16 @@ let a=Number(amount)
 
 
 function increment(){
-   
+
 count++
-
 foodamout.innerText=a*count
-
-
-
 countp.innerHTML=count
-
- 
-
-
 }
 
 
 function decrement(){
     
         count--
-   
-
 
 if (count==0) {
     foodamout.innerText=a
@@ -61,5 +51,6 @@ amount_div.style.marginLeft="300px"
 amount_div.style.width="500px"
 amount_div.style.justifyContent="space-between"
 }
+
 
 
