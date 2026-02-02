@@ -1,0 +1,77 @@
+.food-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+.food-card{
+    width:220px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:transform 0.3s;
+    
+}
+.food-card:hover{
+    transform:scale(1.05);
+}
+
+.food-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.food-card h3{
+    margin:10px 0;
+   
+}
+
+.food-card p{
+    font-size:14px;
+    padding:0 10px;
+}
+
+.food-card span{
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    color:#333;
+}
+.cake-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    
+    margin-left:80px;
+}
+.div-quty{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5px;
+     margin-right:5px;
+    margin-bottom: 4px;
+}
+.bill{
+    display: flex;
+    width: 600px;
+    background-color: rgb(151, 204, 204);
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right:20px;
+    margin-top:2px;
+}
+.billsection{
+    display: flex;
+     width: 600px;
+    background-color: rgb(156, 238, 238);
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right:20px;
+    margin-top:20px;
+}
+.qutyarrange{
+    margin-left: 200px;
+}
