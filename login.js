@@ -1,11 +1,11 @@
 
-let countp=document.getElementById("count-numeber")
+let countp=document.querySelector(".count-numeber")
 
-let foodamout=document.getElementById("amount-food")
-let carditemname=document.getElementById("item-name").innerText
+let foodamout=document.querySelector(".amount-food")
+let carditemname=document.querySelector(".item-name").innerText
 let count=0
-let amount=document.getElementById("amount-food").innerText
-let Qutity=document.getElementById("qutity").value
+let amount=document.querySelector(".amount-food").innerText
+let Qutity=document.querySelector(".qutity").value
 let a=Number(amount)
 
 
