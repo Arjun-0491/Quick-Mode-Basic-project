@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-image: url("image/background.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding: 2px 0px;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+}
+
+.navbar ul li{
+    margin-left:20px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    height:60vh;
+    padding-left:50px;
+}
+
+.hero-text h1{
+    font-size:50px;
+    margin:10px 0;
+}
+
+.small-title{
+    color:#ffcc99;
+}
+
+.btn{
+    padding:10px 20px;
+    border:none;
+    background:#c96b2c;
+    color:white;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.btn.outline{
+    background:transparent;
+    border:1px solid white;
+}
+
+.products{
+    padding:50px;
+    text-align:center;
+}
+
+.product-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:200px;
+    border:1px solid #ddd;
+    padding:10px;
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fff3e0;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    
+    color:white;
+}
+
+.food-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.food-card{
+    width:220px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+    transition:transform 0.3s;
+}
+
+.food-card:hover{
+    transform:scale(1.05);
+}
+
+.food-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.food-card h3{
+    margin:10px 0;
+    color:#d32f2f;
+}
+
+.food-card p{
+    font-size:14px;
+    padding:0 10px;
+}
+
+.food-card span{
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#fff0f5;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    
+    color:white;
+}
+
+.cake-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.cake-card{
+    width:220px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+    transition:transform 0.3s;
+}
+
+.cake-card:hover{
+    transform:scale(1.05);
+}
+
+.cake-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.cake-card h3{
+    margin:10px 0;
+    color:#d81b60;
+}
+
+.cake-card p{
+    font-size:14px;
+    padding:0 10px;
+}
+
+.cake-card span{
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#e3f2fd;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    
+    color:white;
+}
+
+.drink-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.drink-card{
+    width:220px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    text-align:center;
+    transition:transform 0.3s;
+}
+
+.drink-card:hover{
+    transform:scale(1.05);
+}
+
+.drink-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.drink-card h3{
+    margin:10px 0;
+    
+}
+
+.drink-card p{
+    font-size:14px;
+    padding:0 10px;
+}
+
+.drink-card span{
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    color:#333;
+}
+
+
