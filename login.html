@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title><link rel="stylesheet" href="intex.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="intex.css">
 </head>
 <body>
     <header>
@@ -67,7 +68,14 @@
         <img src="image/chikkan dry.jpg" alt="Chilli Paneer">
         <h3>Chilli Paneer</h3>
         <p>Paneer with spicy sauce</p>
-        <span>₹200</span> 
+        <div class="food-action"> <button onclick="increment()">+</button> <p class="count-numeber">0</p><button onclick="decrement()">-</button><span class="amount-food">250</span>
+        <select name="qutity" class="qutity">
+            <option name="qutity"value="1kg">1kg</option>
+            <option value="2kg">2kg</option>
+            
+        </select>
+    <button onclick="amountaddbar()" class="add">add</button>
+</div> 
     </div>
 
     <div class="food-card">
@@ -88,8 +96,8 @@
 
 <section class="cake-container">
 
-    <div class="cake-card">
-        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Cake">
+   <div class="cake-card">
+         <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Cake">
         <h3>Chocolate Cake</h3>
         <p>Rich chocolate cream cake</p>
         <span>₹500</span>
