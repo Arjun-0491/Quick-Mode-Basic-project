@@ -57,9 +57,21 @@
 .bill{
     display: flex;
     width: 600px;
-    background-color: aqua;
+    background-color: rgb(151, 204, 204);
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right:20px;
+    margin-top:2px;
+}
+.billsection{
+    display: flex;
+     width: 600px;
+    background-color: rgb(156, 238, 238);
     justify-content: space-between;
     margin-left: 50px;
     margin-right:20px;
     margin-top:20px;
+}
+.qutyarrange{
+    margin-left: 200px;
 }
